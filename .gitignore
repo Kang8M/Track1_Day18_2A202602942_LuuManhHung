@@ -1,0 +1,9 @@
+# Tài liệu đề bài do giảng viên cung cấp — không phải sản phẩm nộp bài
+docs/
+
+# Gói gửi tester, dựng lại được từ prototype/
+prototype-vlearn.zip
+
+# Rác hệ điều hành
+Thumbs.db
+.DS_Store
