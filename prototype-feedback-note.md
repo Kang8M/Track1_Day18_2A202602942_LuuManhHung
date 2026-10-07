@@ -82,8 +82,8 @@ Riêng Option B:
 | Có bấm mở link nguồn không — cái nào trước                             | có, tester tự nhận ra, trước khi facilitator giải thích | có, tester tự nhận ra, trước khi facilitator giải thích |
 | Có dừng ở khối gắn nhãn ⚠ không                                          | không                                                          | không                                                          |
 | **Số giây** từ lúc thấy kết quả AI tới lúc bấm Lưu                    | 3 giây                                                         | 3 giây                                                         |
-| **Có bắt được dòng 3 nói ngược với bài không** *(phép thử chính)* | có                                                             | có                                                             |
-| Nếu có — tester nói gì, làm gì với nó                                   | tester hiểu và giải thích lại được                      | tester hiểu và giải thích lại được                      |
+| **Có bắt được dòng 3 nói ngược với bài không** *(phép thử chính)* | **có — tự nhận ra, TRƯỚC khi facilitator giải thích** |  **có — tự nhận ra, TRƯỚC khi facilitator giải thích** |
+| Nếu có — tester nói gì, làm gì với nó | Tester nhắc tới chỗ này **trong lúc dừng ở màn hình**, trước khi hỏi facilitator giải thích; hiểu và giải thích lại được bằng lời | Như B — tự nhận ra trước khi được giải thích |
 
 > Không nhắc, không gợi ý về dòng 3. Nếu tester hỏi *"cái này đúng không?"* → *"Theo bạn thì sao?"*
 
@@ -119,6 +119,7 @@ Riêng Option B:
 | 2 | Cả B và C đều bị duyệt qua loa; nhãn ⚠ không giữ chân được ai                                          | 3 giây tới lúc bấm Lưu · không dừng ở khối ⚠                                    | 🟡         |
 | 3 | Cơ chế duyệt từng nhóm của B giữ ngữ cảnh tốt hơn bản nháp tự sinh của C                              | Mệnh đề mục 3: B còn · C mất                                                        | 🟡         |
 | 4 | Lối thoát có tồn tại nhưng không tìm thấy được thì bằng không có                                     | Tìm nút Bắt đầu lại khó khăn · "cách thoát khỏi màn hình ghi chú chưa có" | 🟡         |
+| 5 | Lỗi **nội dung** dễ bị bắt hơn lỗi **điều hướng**: tester tự phát hiện mệnh đề sai ở dòng 3 nhưng lại không tự hiểu được màn hình dùng để làm gì | Bắt dòng 3 trước khi được giải thích · nhưng dừng 3′/2′ rồi phải hỏi về chức năng màn hình | 🟡 |
 
 > Không dòng nào được đánh 🟢 Strong từ **một** phiên test. Một tester không tạo ra pattern.
 
@@ -156,7 +157,7 @@ Một thay đổi, đủ cụ thể để build được ở iteration sau.
 | # | Vẫn chưa biết                                                         | Vì sao phiên này không trả lời được                                                    |
 | --- | -------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- |
 | 1 | B hỗ trợ hay làm ngắt mạch tổng hợp                               | B hỏi 0 câu làm rõ — bước Ask không xuất hiện (dry-run-report.md §4)                 |
-| 2 | Tester có tự bắt được dòng 3 không                               | Facilitator đã giải thích màn hình giữa phiên → mọi quan sát sau đó bị nhiễm     |
+| 2 | Learner **không** được cảnh báo trước có bắt được lỗi dạng này không | FB1 bắt được **trước** khi facilitator giải thích → quan sát này **sạch**. Nhưng tester đã biết mình đang dự một buổi test; chưa đo được trong dùng thật |
 | 3 | Option B có thật sự được chọn vì cơ chế, hay vì gặp trước | Chỉ một tester, thứ tự B→C, chưa có phiên C→B để đối chiếu                        |
 | 4 | Cách này có giúp tìm lại kiến thức về sau không                | Tester không có relevant context; phiên 10 phút không đo được hành vi một tháng sau |
 

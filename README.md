@@ -128,7 +128,7 @@ Chạy 41 điểm kiểm trên đúng đường tester sẽ đi — `dry-run-rep
 
 > ⚠️ **Hai giới hạn phải đọc trước mọi kết luận bên dưới**
 > 1. Tester **không có relevant context** — không kể được lần nào phải tìm lại kiến thức đã học. Phiên này **chỉ dùng cho interaction breakdown**, không đưa value claim.
-> 2. **Facilitator đã giải thích màn hình** khi tester hỏi → vi phạm luật facilitation số 3. Mọi quan sát **sau** thời điểm đó không còn độc lập.
+> 2. **Facilitator đã giải thích màn hình** khi tester hỏi → vi phạm luật facilitation số 3. Mọi quan sát **sau** thời điểm đó không còn độc lập. *(Riêng việc bắt được dòng 3 xảy ra **trước** lúc giải thích — quan sát đó sạch.)*
 
 ### Quan sát chính — OBSERVED
 
@@ -138,6 +138,7 @@ Chạy 41 điểm kiểm trên đúng đường tester sẽ đi — `dry-run-rep
 | **Breakdown nặng nhất** | **Dừng 3 phút ở B, 2 phút ở C** ngay khi vào màn Sổ ghi chú, rồi hỏi *"Bạn có thể giải thích tính năng của màn hình này không?"* |
 | **Đọc evidence** | Có mở link nguồn, nhưng **3 giây** sau đã bấm Lưu — ở **cả B và C**. **Không** dừng ở khối gắn nhãn ⚠ |
 | **Giữ ngữ cảnh** | Mệnh đề đánh đổi ở mục 3: **B còn · C mất** |
+| **Phép thử cài sẵn** | Tester **tự phát hiện** dòng 3 của bản nháp nói ngược với bài — **trước khi** facilitator giải thích màn hình. Nhưng note cuối của C **vẫn mất** mệnh đề đó |
 | **Lấy lại control** | Thấy và thử *"Tự viết, không cần AI"*; sửa nội dung AI tạo ra; **tìm nút "Bắt đầu lại" khá khó khăn** |
 | **Option được chọn** | **B — Cùng tổ chức**: *"cách đánh dấu và note, duyệt qua từng note trực quan và dễ hiểu hơn với người sử dụng"* |
 | **Trade-off tự nói ra** | *"Cách thoát khỏi màn hình ghi chú chưa có, tester chưa biết cách thoát như thế nào."* |
@@ -148,7 +149,7 @@ Chạy 41 điểm kiểm trên đúng đường tester sẽ đi — `dry-run-rep
 | Nhóm kỳ vọng | Quan sát thật |
 | --- | --- |
 | Người dùng C **sẽ kiểm tra nguồn** | **Ngược lại** — mở nguồn rồi 3 giây sau bấm Lưu, bỏ qua khối ⚠ |
-| Cả hai cách **giữ đủ ngữ cảnh** | **Ngược một nửa** — C **mất** mệnh đề mục 3 |
+| Cả hai cách **giữ đủ ngữ cảnh** | **Ngược một nửa** — C **mất** mệnh đề mục 3, **dù tester đã tự phát hiện ra lỗi đó**. Bắt được lỗi ≠ sửa được lỗi |
 | Câu hỏi làm rõ của B **hỗ trợ** tổng hợp | **Không kiểm được** — B không hỏi câu nào |
 | Prototype **không cần facilitator narrate** *(GATE 4)* | **Trượt** — tester phải hỏi để hiểu màn hình, ở cả hai option |
 
@@ -166,7 +167,8 @@ Dựa trên ba dòng OBSERVED độc lập: dừng 3′/2′ rồi phải hỏi 
 | | |
 | --- | --- |
 | **Có pattern hay không** | Một tester không tạo ra pattern. Cần FB2 chạy ngược chiều C → B |
-| **Tester có *tự* bắt được dòng 3 không** | Facilitator đã giải thích giữa phiên → quan sát không độc lập |
+| **Phần quan sát *sau* lúc giải thích** còn giá trị tới đâu | Giải thích xảy ra ở đầu mỗi màn → thao tác sau đó không độc lập |
+| **Learner không được báo trước có bắt được lỗi dạng này không** | Tester biết mình đang dự buổi test; chưa đo được trong dùng thật |
 | **B được chọn vì cơ chế hay vì gặp trước** | Chỉ một phiên, thứ tự B → C |
 | **Có giúp tìm lại kiến thức về sau không** | Tester không có relevant context; 10 phút không đo được hành vi một tháng sau |
 | **Barrier và Consequence** của Hypothesis Problem | Vẫn 🔴 giả thuyết — Chặng 6 không đo được chúng |

@@ -85,6 +85,7 @@ Cả hai phiên chạy trên **một build duy nhất**: `prototype/` trong repo
 | Giây từ lúc thấy kết quả AI → bấm Lưu | **3 giây** | **3 giây** |
 | Dừng ở khối gắn nhãn ⚠ | không | không |
 | Mệnh đề đánh đổi ở mục 3 còn trong note cuối | **còn** | **mất** |
+| Tester **tự** bắt được dòng 3 sai *(trước khi được giải thích)* | **có** | **có** |
 | Số câu hỏi làm rõ của B | **0** | — |
 
 ### Cách điền cột cuối — đúng một trong ba nhãn
@@ -115,7 +116,7 @@ Thứ tự B → C và C → B được chia cố ý để tách *tác dụng c�
 | --- | --- | --- | --- |
 | 1 | Câu hỏi làm rõ + đề xuất nhóm của **B** **hỗ trợ** hay **làm ngắt mạch** tổng hợp | FB1: **B hỏi 0 câu** — bước *Ask* không xuất hiện với bộ dấu vết tester tạo | **phiên test không trả lời được** |
 | 2 | Người dùng **C** **thật sự kiểm tra nguồn** hay **chỉ xác nhận** bản nháp | FB1: có mở link nguồn, nhưng **3 giây** sau đã bấm Lưu và **không dừng ở khối ⚠**. Cùng con số ở B | **có evidence ngược lại** — 1 phiên |
-| 3 | Cả hai cách có **giữ đủ ngữ cảnh** *(mệnh đề đánh đổi ở mục 3)* | FB1: **B giữ được, C mất** | **có dấu hiệu, cần test tiếp** |
+| 3 | Cả hai cách có **giữ đủ ngữ cảnh** *(mệnh đề đánh đổi ở mục 3)* | FB1: **B giữ được, C mất**. Đáng chú ý: tester **tự phát hiện** dòng 3 sai, trước khi facilitator giải thích — nhưng note cuối của C **vẫn mất** mệnh đề. **Bắt được lỗi không đồng nghĩa với sửa được lỗi** | **có dấu hiệu, cần test tiếp** |
 | 4 | Tự tổng hợp là **pain** cần giảm hay **hoạt động học cần bảo toàn** | FB1 nói: *"Muốn tự đánh dấu các phần nội dung chưa hiểu, AI sẽ tổng hợp lại theo cấu trúc"* — là **lời nói**, không phải hành vi quan sát được | **có dấu hiệu, cần test tiếp** |
 | 5 | *(§1.3)* Learner có coi **"hết bài học"** là lúc muốn ghi chú | FB1: thao tác đầu tiên ở **cả hai lượt** là bấm *"Hoàn thành bài học"* | **có dấu hiệu, cần test tiếp** |
 
@@ -128,6 +129,7 @@ Tester **dừng 3 phút ở B và 2 phút ở C** ngay khi vào màn Sổ ghi ch
 | **GATE 4 trượt** | Tiêu chí *"không cần facilitator narrate mới hiểu"* không đạt — ở **cả hai** option |
 | **Dữ liệu sau đó bị nhiễm** | Mọi quan sát sau thời điểm giải thích không còn độc lập, kể cả ô *"có bắt được dòng 3"* |
 | **Áp dụng cho FB2** | Gia Huy chạy phiên của mình: tester hỏi thì **hỏi lại** *"Theo bạn, nó nên hoạt động như thế nào?"*, **không giải thích** |
+| **Phần không bị nhiễm** | Việc tester bắt được dòng 3 xảy ra **trước** lúc giải thích → quan sát đó vẫn dùng được |
 
 > Cột *"Kết luận được phép"* chỉ nhận một trong ba: **"có dấu hiệu, cần test tiếp"** · **"có evidence ngược lại"** · **"phiên test không trả lời được"**.
 > **Không** nhận *"đã xác nhận"* hay *"đã validated"*.
