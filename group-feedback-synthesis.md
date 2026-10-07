@@ -9,7 +9,7 @@
 > ## 🟡 MỚI CÓ 1 / 3 FEEDBACK NOTE
 >
 > **FB1 — Lưu Mạnh Hùng** · tester Dương Quốc Khánh · 05/10/2026 · thứ tự B → C · ✅ đã có → `prototype-feedback-note.md`
-> **FB2 — Trần Vũ Gia Huy** · thứ tự C → B · ⬜ **chưa chạy**
+> **FB2 — Trần Vũ Gia Huy** · thứ tự C → B · ⬜ **chưa chạy** — đã đối chiếu repo `Track1_Day18_2A202602705_TranVuGiaHuy` ngày 07/10/2026: `prototype-feedback-note.md` và `group-feedback-synthesis.md` bên đó vẫn là **template rỗng** (*"Bổ sung từ phiên test thật"*), chưa có dữ liệu tester nào
 > **FB3 — ngoài giờ** · ⬜ chưa chạy
 >
 > Bảng dưới đã điền **cột FB1**. Hai cột còn lại để trống đúng vì chưa có phiên — **không nhân bản FB1 thành FB2**.
@@ -27,6 +27,31 @@
 | 3 Practice Notes làm evidence Day 17 | **1** (P01 — Tài) | Hypothesis Problem đứng trên một nguồn duy nhất; Barrier và Consequence vẫn là 🔴 giả thuyết |
 
 **Số Feedback Note thật tổng hợp ở đây: `1`** — dưới cả mức tối thiểu của đề bài. Khai báo rõ thay vì làm tròn lên.
+
+---
+
+## §0.1 ⚠️ Rủi ro chưa xử lý — nhóm đang có **hai prototype khác nhau**
+
+Đối chiếu repo của Gia Huy ngày 07/10/2026:
+
+| | Repo Hùng | Repo Gia Huy |
+| --- | --- | --- |
+| File prototype | `prototype/index.html` · `option-b.html` · `option-c.html` · `shared.css` · `shared.js` · `fixture.js` | `prototype/index.html` · `app.js` · `styles.css` |
+| Chọn option | Facilitator đổi bằng `?opt=` trên URL — tester **không thấy** có mấy option | Tester **tự chọn** ở màn hình đầu: *"B — Cùng AI tổ chức"* / *"C — AI tạo bản nháp"* |
+| Fixture bài học | Chốt cụ thể: **Prompt Engineering — 4 thành phần**, có mệnh đề đánh đổi cài sẵn ở mục 3 | Vẫn ghi chung chung *"một bài học mẫu"* — chưa chốt nội dung |
+
+**Hệ quả nếu cứ gộp hai Feedback Note:** FB1 và FB2 sẽ nói về **hai sản phẩm khác nhau**, không phải hai lượt test trên cùng một thiết kế. Comparison Contract (`three-option-design-sheet.md` §2.1) chỉ ràng buộc trong từng build, không ràng buộc giữa hai build.
+
+Thêm nữa, prototype của Gia Huy **cho tester tự chọn option** — tức tester biết mình đang so sánh hai phương án. Đây là một **biến khác** so với FB1, nơi tester chỉ thấy một sản phẩm.
+
+### Nhóm phải chọn một trong hai, trước khi Gia Huy chạy phiên
+
+| Hướng | Việc phải làm | Đánh đổi |
+| --- | --- | --- |
+| **A — Thống nhất một build** *(nên chọn)* | Gia Huy chạy phiên trên build trong repo này, mở bằng `?opt=c&fresh=1` *(thứ tự C → B)* | FB1 và FB2 so sánh được; đổi lại Gia Huy không test trên bản mình viết |
+| **B — Giữ hai build** | Vẫn chạy, nhưng synthesis **không được gộp** thành pattern — chỉ đặt cạnh nhau và ghi rõ là hai sản phẩm khác nhau | Giữ công sức hai bên, nhưng **mất khả năng rút pattern** — đúng thứ GATE 5 yêu cầu |
+
+⬜ **Chưa chốt.** Ghi lại ở đây để không im lặng cho qua.
 
 ---
 

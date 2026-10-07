@@ -256,6 +256,20 @@ là diễn giải chứ không phải quan sát, tôi chuyển vế đó xuống
 
 ---
 
+### Entry 14 — Đối chiếu repo của Gia Huy
+
+| Trường | Nội dung |
+| --- | --- |
+| **Thời điểm** | 07/10/2026 |
+| **Công cụ** | Claude Code (Opus) |
+| **Tôi yêu cầu gì** | Đọc repo `Track1_Day18_2A202602705_TranVuGiaHuy` và hoàn thiện nốt phần còn thiếu của nhóm |
+| **AI đã làm gì** | Đọc toàn bộ artifact bên đó, đối chiếu với repo này, ghi kết quả vào `group-feedback-synthesis.md` §0.1 |
+| **Kết quả đối chiếu** | (1) `prototype-feedback-note.md` và `group-feedback-synthesis.md` của Gia Huy **vẫn là template rỗng** — **chưa có FB2**, nên không gộp được gì. (2) Nhóm đang có **hai prototype khác nhau**: bản của Gia Huy cho tester **tự chọn option** ở màn đầu, bản này thì facilitator đổi bằng URL. (3) Gia Huy **chưa chốt fixture** — vẫn ghi *"một bài học mẫu"*, trong khi bản này đã chốt *Prompt Engineering 4 thành phần* kèm lỗi cài sẵn ở mục 3. (4) Mô tả cơ chế B và C giữa hai repo **khớp nhau** — coi như đã giải toả cờ ⚠️ ở Entry 05 về Option B, nhưng **chưa giải toả** phần fixture |
+| **AI KHÔNG làm** | Không chép bất cứ thứ gì từ repo Gia Huy vào cột FB2. Cột đó để trống vì **chưa có phiên test**, không phải vì thiếu thời gian |
+| **AI sai / hời hợt ở đâu** | *(điền)* |
+| **Tôi đã sửa gì** | *(điền)* |
+| **Loại** | Đối chiếu tài liệu nhóm — **không** tạo evidence |
+
 ## Khai báo cuối (hoàn thiện trước khi nộp)
 
 **AI đã giúp gì:**
