@@ -268,6 +268,7 @@ là diễn giải chứ không phải quan sát, tôi chuyển vế đó xuống
 | **AI KHÔNG làm** | Không chép bất cứ thứ gì từ repo Gia Huy vào cột FB2. Cột đó để trống vì **chưa có phiên test**, không phải vì thiếu thời gian |
 | **AI sai / hời hợt ở đâu** | *(điền)* |
 | **Tôi đã sửa gì** | *(điền)* |
+| **Quyết định của tôi** | **Chốt hướng A — một build chung** (07/10/2026). Gia Huy chạy phiên trên `prototype/` của repo này, mở `?opt=c&fresh=1`, thứ tự **C → B**. Lý do: hai build khác nhau thì FB1 và FB2 không gộp thành pattern được, mà pattern là thứ GATE 5 chấm. Bản prototype riêng của Gia Huy giữ làm artifact thiết kế Option C, không dùng để test |
 | **Loại** | Đối chiếu tài liệu nhóm — **không** tạo evidence |
 
 ## Khai báo cuối (hoàn thiện trước khi nộp)

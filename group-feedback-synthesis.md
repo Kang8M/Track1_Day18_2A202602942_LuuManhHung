@@ -48,10 +48,23 @@ Thêm nữa, prototype của Gia Huy **cho tester tự chọn option** — tức
 
 | Hướng | Việc phải làm | Đánh đổi |
 | --- | --- | --- |
-| **A — Thống nhất một build** *(nên chọn)* | Gia Huy chạy phiên trên build trong repo này, mở bằng `?opt=c&fresh=1` *(thứ tự C → B)* | FB1 và FB2 so sánh được; đổi lại Gia Huy không test trên bản mình viết |
+| **A — Thống nhất một build** | Gia Huy chạy phiên trên build trong repo này, mở bằng `?opt=c&fresh=1` *(thứ tự C → B)* | FB1 và FB2 so sánh được; đổi lại Gia Huy không test trên bản mình viết |
 | **B — Giữ hai build** | Vẫn chạy, nhưng synthesis **không được gộp** thành pattern — chỉ đặt cạnh nhau và ghi rõ là hai sản phẩm khác nhau | Giữ công sức hai bên, nhưng **mất khả năng rút pattern** — đúng thứ GATE 5 yêu cầu |
 
-⬜ **Chưa chốt.** Ghi lại ở đây để không im lặng cho qua.
+### ✅ Nhóm chốt **hướng A** — 07/10/2026
+
+Cả hai phiên chạy trên **một build duy nhất**: `prototype/` trong repo `Track1_Day18_2A202602942_LuuManhHung`.
+
+| | |
+| --- | --- |
+| **Gia Huy mở** | `prototype/index.html?opt=c&fresh=1` → sau lượt C, bấm *"Bắt đầu lại"*, đổi URL sang `?opt=b` → lượt B |
+| **Thứ tự** | **C → B** — ngược chiều FB1, để tách *tác dụng của option* khỏi *tác dụng của việc gặp trước* |
+| **Script** | `test-script.md` · cue card `session-kit.md` §B · bản ghi tay §C |
+| **Lưu ý từ FB1** | Tester hỏi *"giải thích giúp mình"* thì **không giải thích** — hỏi lại *"Theo bạn, nó nên hoạt động như thế nào?"*. Ở FB1 facilitator đã lỡ giải thích và dữ liệu sau đó bị nhiễu |
+
+**Hệ quả cho bản prototype riêng của Gia Huy** *(`prototype/` trong repo của bạn ấy)*: giữ lại như artifact thiết kế Option C, **không dùng để test**. Khai báo trong README của bạn ấy để không ai tưởng là hai lần test cùng một thứ.
+
+**Hệ quả cho fixture:** build chung đã chốt *Prompt Engineering — 4 thành phần*, nên cờ ⚠️ *"chưa chốt fixture"* ở `ai-support-log.md` Entry 05/06 **được giải toả bằng chính quyết định này**.
 
 ---
 

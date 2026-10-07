@@ -23,7 +23,7 @@
 **Việc còn lại:**
 
 1. ⬜ **Gia Huy chạy phiên của mình** (thứ tự C → B) → điền cột FB2 → cột *Pattern* → **chốt** Next Change
-   ⚠️ **Chặn trước đó:** nhóm phải chốt chạy trên **một build chung** hay giữ hai build — xem `group-feedback-synthesis.md` §0.1. Đối chiếu 07/10/2026: repo Gia Huy chưa có dữ liệu tester nào
+   ✅ **Đã chốt 07/10/2026 — hướng A:** cả hai phiên chạy trên **một build chung** (`prototype/` repo này). Gia Huy mở `?opt=c&fresh=1`, thứ tự **C → B**. Xem `group-feedback-synthesis.md` §0.1
 2. ⬜ *(nếu kịp)* Tester thứ 3 ngoài giờ → FB3
 
 ✅ Đã xong: FB1 · README §5 · synthesis cột FB1 · phản ánh cá nhân ở `ai-support-log.md`
